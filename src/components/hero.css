@@ -1,0 +1,38 @@
+.hero-image {
+  display: flex;
+  width: 1140px;
+  height: 516px;
+  /* padding: 280px 978px 256px; */
+  align-items: center;
+  flex-shrink: 0;
+}
+.hero-section {
+  position: relative;
+}
+.hero-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 50px;
+  left: 80px;
+  gap: 50px;
+}
+.hero-text p,
+h2 {
+  color: white;
+}
+.hero-text button {
+  /* height: 35px;
+  width: 100px; */
+}
+h2 {
+  color: #fff;
+  /* font-family: Core Sans C; */
+  font-size: 78px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120.028%;
+  letter-spacing: 0.315px;
+}

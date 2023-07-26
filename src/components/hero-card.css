@@ -1,0 +1,30 @@
+.hero-card img {
+  /* display: flex; */
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 12px;
+  /* align-items: center; */
+  flex-shrink: 0;
+}
+.hero-cards {
+  display: flex;
+}
+
+.hero-card {
+  position: relative;
+}
+.heroCard-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+
+  top: 0;
+  /* left: 50px;
+  gap: 20px; */
+}
+.heroCard-text p,
+h3 {
+  color: white;
+}
