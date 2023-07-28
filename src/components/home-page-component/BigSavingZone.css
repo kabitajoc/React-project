@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.saving-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.saving-card {
+  position: relative;
+
+  /* margin: auto; */
+}
+.savingCard-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.savingText1 {
+  top: 30px;
+  left: 5px;
+  gap: 20px;
+  color: white;
+}
+.savingText2 {
+  color: white;
+}
+.savingText2,
+.savingText3 {
+  top: 40px;
+  right: 30px;
+  gap: 20px;
+}
+.savingText4,
+.savingText5 {
+  top: 40px;
+  right: 100px;
+  gap: 20px;
+  color: black;
+}
+.download-svg1,
+.savingText4 p,
+.savingText5 p,
+.savingText3 p {
+  color: black;
+}
+
+.savingCard-image {
+  max-height: 350px;
+  max-width: 400px;
+}
+.savingCard-image1 {
+  max-height: 350px;
+  max-width: 540px;
+}
+.savingCard-text button {
+  background: transparent;
+  border: 1px solid black;
+}

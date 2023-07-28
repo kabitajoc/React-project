@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.arrivalCard,
+.men-category,
+.women-category {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 1140px;
+  margin: auto;
+}
+p {
+  font-weight: 500;
+}
+h3 {
+  max-width: 1140px;
+  color: black;
+  font-size: 34px;
+  font-weight: 600;
+  margin: 70px auto;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+}

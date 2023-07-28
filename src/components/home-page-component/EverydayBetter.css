@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.better-card {
+  position: relative;
+
+  margin: auto;
+}
+.better-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 456px;
+  align-items: center;
+  top: 30%;
+  left: 70px;
+  gap: 30px;
+}
+.better-text p {
+  color: #fff;
+  /* font-family:Noto sans-serif; */
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+.better-cards {
+  display: flex;
+  max-width: 1140px;
+  margin:  auto;
+}
+.better-card img {
+  width: 555px;
+}
+.better-text h2 {
+  color: #fff;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 50px; /* 147.059% */
+  letter-spacing: 0.208px;
+}
+.better-text {
+  display: flex;
+  align-items: flex-start;
+}

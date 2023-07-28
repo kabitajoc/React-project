@@ -1,18 +1,13 @@
-// import { useState } from "react";
-
 import "./App.css";
-import Nav from "./components/Nav";
-import Hero from "./components/hero";
-import HeroCard from "./components/hero-card";
-import newArrivalCard from "./components/newArrival";
+// import ContactPage from "./page/contact-page/ContactPage";
+import HomePage from "./page/home-page/HomePage";
+import ProductDetails from "./page/product-page/ProductDetails";
 
 function App() {
   return (
     <>
-      <Nav />
-      <Hero />
-      <HeroCard />
-      <newArrivalcard/>
+      {/* <HomePage /> */}
+      <ProductDetails/>
     </>
   );
 }

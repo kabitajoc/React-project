@@ -10,7 +10,9 @@ const Hero = () => {
       />
       <div className="hero-text">
         <p>T-shirt/Tops</p>
-        <h2>Summer <br></br>value pack</h2>
+        <h1>
+          Summer <br></br>value pack
+        </h1>
         <p>cool/colorful/comfy</p>
         <button>
           <span>shop Now</span>

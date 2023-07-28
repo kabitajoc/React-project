@@ -1,4 +1,5 @@
 import React from "react";
+import "./hero.css";
 
 function HeroCard() {
   return (
@@ -7,7 +8,7 @@ function HeroCard() {
         <img src="Images/unsplashcard.jpg" className="heroCard-image" />
         <div className="heroCard-text">
           <p>Low Price</p>
-          <h3>High Cozziness</h3>
+          <h4>High Cozziness</h4>
           <p>UPTO 60% OFF</p>
           <a href="#">Explore Items</a>
         </div>
@@ -17,8 +18,10 @@ function HeroCard() {
         <img src="Images/unsplash_img.jpg" className="heroCard-image" />
         <div className="heroCard-text">
           <p>Low Price</p>
-          <h3>High Cozziness</h3>
-          <p>UPTO 60% OFF</p>
+          <h4>
+            Breezy Summer<br></br> Style
+          </h4>
+          <p>UPTO 50% OFF</p>
           <a href="#">Explore Items</a>
         </div>
       </div>

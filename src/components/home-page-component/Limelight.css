@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+}
+.Limelight-cards {
+  display: flex;
+  max-width: 1140px;
+  margin: auto;
+  gap: 20px;
+  /* position: relative; */
+}
+.Limelight-text {
+  display: flex;
+  justify-content: space-between;
+}
+.Limelight-images img {
+  width: 270px;
+}
+.price {
+  background: #f6f6f6;
+}
+.limelight-heading {
+  margin: 70px auto;
+}
+.Limelight-images {
+  position: relative;
+}
+.limelight-svg {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.price {
+  height: 10px;
+}
+.Limelight-text {
+  margin: 10px auto;
+}
+.title-brand p {
+  color: black;
+  font-size: 14px;
+}

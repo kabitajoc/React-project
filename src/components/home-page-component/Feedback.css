@@ -1,0 +1,29 @@
+.feedback-card {
+  border: 1px solid grey;
+  border-radius: 10px;
+  max-height: 400px;
+  max-width: 450px;
+  padding: 20px;
+  margin-bottom: 50px;
+  /* display: flex; */
+}
+.feedback-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.feedback-text p {
+  color: black;
+  font-size: 12px;
+}
+.feedback-text h4 {
+  margin: 20px auto;
+}
+
+.feedback-image {
+  display: flex;
+  justify-content: space-between;
+}

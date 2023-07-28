@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.hero-image {
+  display: flex;
+  width: 100vw;
+  height: 516px;
+  object-fit: cover;
+  /* padding: 280px 978px 256px; */
+  align-items: center;
+  flex-shrink: 0;
+}
+.hero-section {
+  position: relative;
+  width: 100%;
+}
+.hero-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 50px;
+  left: 80px;
+  gap: 50px;
+}
+.hero-text p,
+h2 {
+  color: white;
+}
+
+h2 {
+  color: #fff;
+  /* font-family: Core Sans C; */
+  font-size: 78px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120.028%;
+  letter-spacing: 0.315px;
+}
+h3 {
+  color: #fff;
+
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 45.1px; /* 132.648% */
+}
+
+.hero-card img {
+  width: 540px;
+  border-radius: 12px;
+  /* align-items: center; */
+  flex-shrink: 0;
+}
+.hero-cards {
+  display: flex;
+  gap: 40px;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.hero-card {
+  position: relative;
+  /* margin: 50px 30px; */
+  margin: auto;
+}
+.heroCard-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+
+  top: 60px;
+  left: 40px;
+  gap: 15px;
+}
+
+.heroCard-text p,
+.heroCard-text h3,
+.heroCard-text a {
+  color: white;
+}
+.heroCard-text h4 {
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+}
+p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 30.067px; /* 167.038% */
+  letter-spacing: 0.251px;
+}
